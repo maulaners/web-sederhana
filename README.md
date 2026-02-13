@@ -25,7 +25,7 @@ Website ini dibuat untuk menampilkan artikel-artikel dasar mengenai pengembangan
 
 ## Live Demo
 
-*   **[Live Demo](https://instagram.com/maulanersxyt)**
+*   **[Live Demo](https://maulaners.github.io/web-sederhana/)**
 
 ## 🔗 Hubungi Saya
 
