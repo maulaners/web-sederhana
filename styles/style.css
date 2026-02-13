@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.8;
+    color: #1a1a1a;
+    background: #ffffff;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+    color: #111;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+header {
+    background: transparent;
+    padding: 4rem 0 2rem 0;
+    margin-bottom: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.header-title h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+.header-link {
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.header-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+#content {
+    flex: 2;
+    min-width: 0;
+}
+
+article {
+    background: transparent;
+    padding: 0;
+    margin-bottom: 4rem;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+article:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+article h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: none;
+    color: #111;
+}
+
+article h3 {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0 2rem 0;
+    box-shadow: none;
+}
+
+article p {
+    margin-bottom: 1rem;
+    color: #444;
+    font-size: 1.125rem;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+.profile-card {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    text-align: left;
+    border-radius: 0;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    box-shadow: none;
+    border: none;
+}
+
+.profile-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.aside-article-card {
+    background: transparent;
+    padding: 1rem;
+    box-shadow: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #1a1a1a;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.aside-article-card:hover {
+    transform: translateY(-2px);
+    background-color: #f9f9f9;
+    box-shadow: 4px 4px 0px #1a1a1a;
+}
+
+.aside-article-card img {
+    width: 100px;
+    height: 75px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.aside-article-info h4 {
+    font-size: 1.1rem;
+    color: #111;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.aside-article-info h4:hover {
+    text-decoration: underline;
+    color: #2563eb;
+    cursor: pointer;
+}
+
+footer {
+    max-width: 900px;
+    margin: 4rem auto 0;
+    border-top: 1px solid #eee;
+    padding: 3rem 0;
+    text-align: left;
+    background: transparent;
+    box-shadow: none;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    .header-title h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    article h2 {
+        font-size: 2rem;
+    }
+
+    aside {
+        order: -1;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .profile-card {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        text-align: left;
+    }
+
+    .profile-card img {
+        margin-bottom: 0;
+        width: 80px;
+        height: 80px;
+    }
+}
