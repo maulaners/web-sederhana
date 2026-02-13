@@ -1,14 +1,38 @@
-## Penggunaan AI
-Dalam pembuatan proyek ini, saya menggunakan bantuan AI untuk beberapa bagian konten, yaitu:
+# WebDev Journey
 
-- **Penulisan Artikel**: Teks deskriptif mengenai "Tentang Web Development", "HTML", dan "CSS" digenerate menggunakan AI untuk tujuan placeholder dan contoh konten.
-- **Gambar/Ilustrasi**: Gambar-gambar yang digunakan dalam artikel dan sidebar (menggunakan Unsplash source) dipilih berdasarkan rekomendasi/prompt yang dibantu oleh AI untuk memastikan relevansi visual dengan topik.
-- **Font**: Meminta AI untuk memberikan rekomendasi font yang akan digunakan dalam proyek ini.
+Website ini dibuat untuk menampilkan artikel-artikel dasar mengenai pengembangan web, termasuk HTML dan CSS, dengan desain yang responsif dan struktur kode yang semantik.
 
-Struktur kode (HTML & CSS) dan layout disusun secara manual dengan menerapkan prinsip-prinsip yang telah dipelajari dalam modul, termasuk penggunaan Flexbox, Semantic HTML, dan responsivitas.
+## Deskripsi
+
+**WebDev Journey** adalah sebuah halaman web sederhana yang dirancang sebagai portofolio pembelajaran pengembangan web. Halaman ini memiliki tata letak yang bersih dengan navigasi yang mudah, konten artikel yang informatif, dan sidebar yang memuat profil serta navigasi cepat.
 
 ## Fitur Utama
-- **Header**: Menampilkan judul halaman dan navigasi ke profil Dicoding.
-- **Main Content**: Artikel informatif mengenai web development yang disusun menggunakan layout Flexbox.
-- **Sidebar (Aside)**: Menampilkan profil dan navigasi ke artikel menggunakan Flexbox.
-- **Responsive Design**: Tampilan menyesuaikan ukuran layar (desktop dan mobile) menggunakan Media Query, dan menggunakan lebar bacaan medium-width untuk kenyamanan membaca dan juga karena content yang sedikit
+
+*   **Responsive Layout**: Tampilan website menyesuaikan dengan ukuran layar pengguna (Desktop & Mobile).
+*   **Semantic HTML**: Menggunakan elemen-elemen HTML5 yang semantik untuk struktur dokumen yang baik.
+*   **Flexbox**: Menggunakan CSS Flexbox untuk pengaturan tata letak yang rapi.
+*   **Mode Gelap/Terang**: (Opsional, jika ada) Desain yang nyaman di mata.
+
+## Struktur File
+
+*   `index.html`: File utama yang berisi struktur HTML halaman.
+*   `styles/style.css`: File CSS yang mengatur tampilan dan responsivitas halaman.
+*   `assets/`: Folder yang berisi gambar-gambar pendukung.
+
+## Teknologi yang Digunakan
+
+*   **HTML5**
+*   **CSS3** (Flexbox & Media Query)
+
+
+## 🔗 Hubungi Saya
+
+Jika Anda ingin berdiskusi atau melihat karya saya yang lain, silakan kunjungi:
+
+*   **Instagram**: [@maulanersxyt](https://instagram.com/maulanersxyt)
+*   **Instagram**: [@ulsstudio](https://instagram.com/ulsstudio)
+*   **LinkedIn**: [Maulana Dwi Prasetya](https://linkedin.com/in/maulanadwiprasetya)
+*   **GitHub**: [github.com/maulaners](https://github.com/maulaners)
+
+---
+&copy; 2026 Maulana Dwi Prasetya.
