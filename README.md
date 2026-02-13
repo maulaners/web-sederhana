@@ -27,7 +27,7 @@ Website ini dibuat untuk menampilkan artikel-artikel dasar mengenai pengembangan
 
 *   **[Live Demo](https://maulaners.github.io/web-sederhana/)**
 
-## 🔗 Hubungi Saya
+##  Hubungi Saya
 
 Jika Anda ingin berdiskusi atau melihat karya saya yang lain, silakan kunjungi:
 
