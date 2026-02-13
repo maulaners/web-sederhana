@@ -11,7 +11,6 @@ Website ini dibuat untuk menampilkan artikel-artikel dasar mengenai pengembangan
 *   **Responsive Layout**: Tampilan website menyesuaikan dengan ukuran layar pengguna (Desktop & Mobile).
 *   **Semantic HTML**: Menggunakan elemen-elemen HTML5 yang semantik untuk struktur dokumen yang baik.
 *   **Flexbox**: Menggunakan CSS Flexbox untuk pengaturan tata letak yang rapi.
-*   **Mode Gelap/Terang**: (Opsional, jika ada) Desain yang nyaman di mata.
 
 ## Struktur File
 
